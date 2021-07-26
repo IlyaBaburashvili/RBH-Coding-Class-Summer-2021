@@ -1,0 +1,8 @@
+name=input("What's your name?")
+age = int(input("How old are you?"))
+food=input("What food do you like?")
+address=input("Where do you live?")
+print("My name is", name)
+print("I am", age)    
+print("My favorite food is", food)   
+print("I live in", address)    
