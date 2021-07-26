@@ -1,0 +1,6 @@
+message=input("Enter a message")
+print(message.upper())
+print(message.lower())
+print(message[0,5])
+print(message[::3])
+print(message[::-1])
