@@ -15,7 +15,7 @@ if number==1:
 elif number==2:
     computerchoice="Paper"
 elif number==3:
-    computerchoice="Scissors"
+    computerchoice="Scissor"
 print("You chose", user_input)
 print("The computer chose", computerchoice)
 if user_input=="Rock" and computerchoice=="Rock":
