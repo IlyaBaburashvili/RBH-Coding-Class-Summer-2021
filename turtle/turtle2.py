@@ -1,3 +1,4 @@
+import turtle
 t = turtle.Turtle()
 t.speed(0)
 t.pensize(1)
