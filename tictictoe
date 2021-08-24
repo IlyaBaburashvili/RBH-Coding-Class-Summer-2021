@@ -91,6 +91,72 @@ while numberofmoves<9 and won==False:
                 currentmove="Player 2"
             else:
                 print("This is not a legal move")
+    elif currentmove=="Player 2":
+        print("Player1 pick a square")
+        player1move=input()
+        if player2move=="q":
+            if square1=="-":
+                square1="O"
+                numberofmoves+=1
+                currentmove="Player 1"
+            else:
+                print("This is not a legal move")
+        elif player2move=="w":
+            if square2=="-":
+                square2="O"
+                numberofmoves+=1
+                currentmove="Player 1"
+            else:
+                print("This is not a legal move")
+        elif player2move=="e":
+            if square3=="-":
+                square3="O"
+                numberofmoves+=1
+                currentmove="Player 1"
+            else:
+                print("This is not a legal move")
+        elif player2move=="a":
+            if square4=="-":
+                square4="O"
+                numberofmoves+=1
+                currentmove="Player 1"
+            else:
+                print("This is not a legal move")
+        elif player2move=="s":
+            if square5=="-":
+                square5="O"
+                numberofmoves+=1
+                currentmove="Player 1"
+            else:
+                print("This is not a legal move")
+        elif player2move=="d":
+            if square6=="-":
+                square6="O"
+                numberofmoves+=1
+                currentmove="Player 1"
+            else:
+                print("This is not a legal move")
+        elif player2move=="z":
+            if square7=="-":
+                square7="O"
+                numberofmoves+=1
+                currentmove="Player 1"
+            else:
+                print("This is not a legal move")
+        elif player2move=="x":
+            if square8=="-":
+                square8="O"
+                numberofmoves+=1
+                currentmove="Player 1"
+            else:
+                print("This is not a legal move")
+        elif player2move=="c":
+            if square9=="-":
+                square9="O"
+                numberofmoves+=1
+                currentmove="Player 1"
+            else:
+                print("This is not a legal move")
     
         
         
