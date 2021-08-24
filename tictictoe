@@ -1,0 +1,106 @@
+
+square1="-"
+square2="-"
+square3="-"
+square4="-"
+square5="-"
+square6="-"
+square7="-"
+square8="-"
+square9="-"
+currentmove="Player 1"
+player1move=""
+player2move=""
+numberofmoves=0
+won=False
+
+print("      |     |     ")
+print("   "+square1+"  |  "+square2+"  |  "+square3+"  ")
+print(" _____|_____|_____")
+print("      |     |     ")
+print("   "+square4+"  |  "+square5+"  |  "+square6+"  ")
+print(" _____|_____|_____")
+print("      |     |     ")
+print("   "+square7+"  |  "+square8+"  |  "+square9+"  ")
+print("      |     |     ")
+
+while numberofmoves<9 and won==False:
+    print("Player1 pick a square")
+    player1move=input()
+    if player1move=="q":
+        if square1=="-":
+            square1="X"
+            numberofmoves+=1
+            currentmove="Player 2"
+        else:
+            print("This is not a legal move")
+    elif player1move=="w":
+        if square2=="-":
+            square2="X"
+            numberofmoves+=1
+            currentmove="Player 2"
+        else:
+            print("This is not a legal move")
+    elif player1move=="e":
+        if square3=="-":
+            square3="X"
+            numberofmoves+=1
+            currentmove="Player 2"
+        else:
+            print("This is not a legal move")
+    elif player1move=="a":
+        if square4=="-":
+            square4="X"
+            numberofmoves+=1
+            currentmove="Player 2"
+        else:
+            print("This is not a legal move")
+    elif player1move=="s":
+        if square5=="-":
+            square5="X"
+            numberofmoves+=1
+            currentmove="Player 2"
+        else:
+            print("This is not a legal move")
+    elif player1move=="d":
+        if square6=="-":
+            square6="X"
+            numberofmoves+=1
+            currentmove="Player 2"
+        else:
+            print("This is not a legal move")
+    elif player1move=="z":
+        if square7=="-":
+            square7="X"
+            numberofmoves+=1
+            currentmove="Player 2"
+        else:
+            print("This is not a legal move")
+    elif player1move=="x":
+        if square8=="-":
+            square8="X"
+            numberofmoves+=1
+            currentmove="Player 2"
+        else:
+            print("This is not a legal move")
+    elif player1move=="c":
+        if square9=="-":
+            square9="X"
+            numberofmoves+=1
+            currentmove="Player 2"
+        else:
+            print("This is not a legal move")
+
+    
+    
+    
+    
+    print("      |     |     ")
+    print("   "+square1+"  |  "+square2+"  |  "+square3+"  ")
+    print(" _____|_____|_____")
+    print("      |     |     ")
+    print("   "+square4+"  |  "+square5+"  |  "+square6+"  ")
+    print(" _____|_____|_____")
+    print("      |     |     ")
+    print("   "+square7+"  |  "+square8+"  |  "+square9+"  ")
+    print("      |     |     ")
