@@ -1,4 +1,3 @@
-
 square1="-"
 square2="-"
 square3="-"
@@ -91,9 +90,18 @@ while numberofmoves<9 and won==False:
                 currentmove="Player 2"
             else:
                 print("This is not a legal move")
+        print("      |     |     ")
+        print("   "+square1+"  |  "+square2+"  |  "+square3+"  ")
+        print(" _____|_____|_____")
+        print("      |     |     ")
+        print("   "+square4+"  |  "+square5+"  |  "+square6+"  ")
+        print(" _____|_____|_____")
+        print("      |     |     ")
+        print("   "+square7+"  |  "+square8+"  |  "+square9+"  ")
+        print("      |     |     ")
     elif currentmove=="Player 2":
-        print("Player1 pick a square")
-        player1move=input()
+        print("Player2 pick a square")
+        player2move=input()
         if player2move=="q":
             if square1=="-":
                 square1="O"
@@ -157,11 +165,6 @@ while numberofmoves<9 and won==False:
                 currentmove="Player 1"
             else:
                 print("This is not a legal move")
-    
-        
-        
-        
-        
         print("      |     |     ")
         print("   "+square1+"  |  "+square2+"  |  "+square3+"  ")
         print(" _____|_____|_____")
